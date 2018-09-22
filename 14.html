@@ -1,0 +1,23 @@
+
+<html>
+<head>
+<script>
+document.writeln("<table border=\"1\"width=\"50%\">");
+document.writeln("<thead><tr><th>order</th><th>sum</th></tr></thead>");
+document.writeln("<tbody>")
+var i;
+var sum=0;
+for(i=1;i<6;i++){
+sum+=i;
+document.writeln("<tr>");
+document.writeln("<td>"+i+"</td>");
+document.writeln("<td>"+sum+"</td>");
+
+document.writeln("</tr>");
+}
+document.writeln("</tbody>");
+
+document.writeln("</table>");
+</script>
+</head>
+</html>
